@@ -1,0 +1,2434 @@
+DRIVE, Unet
+train_num=20*9=180, batch_size=8;
+test_num=20*9=180, batch_size=1
+
+%run train_test_evaluate train --datasetname='DRIVE'
+
+Epoch 1/5
+----------
+1/23,train_loss:0.736
+2/23,train_loss:0.662
+3/23,train_loss:0.623
+4/23,train_loss:0.516
+5/23,train_loss:0.492
+6/23,train_loss:0.465
+7/23,train_loss:0.460
+8/23,train_loss:0.428
+9/23,train_loss:0.387
+10/23,train_loss:0.385
+11/23,train_loss:0.368
+12/23,train_loss:0.359
+13/23,train_loss:0.377
+14/23,train_loss:0.354
+15/23,train_loss:0.359
+16/23,train_loss:0.323
+17/23,train_loss:0.330
+18/23,train_loss:0.318
+19/23,train_loss:0.315
+20/23,train_loss:0.311
+21/23,train_loss:0.309
+22/23,train_loss:0.303
+23/23,train_loss:0.319
+epoch 1 loss:0.413
+Epoch 2/5
+----------
+1/23,train_loss:0.293
+2/23,train_loss:0.289
+3/23,train_loss:0.277
+4/23,train_loss:0.276
+5/23,train_loss:0.266
+6/23,train_loss:0.258
+7/23,train_loss:0.273
+8/23,train_loss:0.279
+9/23,train_loss:0.255
+10/23,train_loss:0.257
+11/23,train_loss:0.249
+12/23,train_loss:0.260
+13/23,train_loss:0.252
+14/23,train_loss:0.239
+15/23,train_loss:0.269
+16/23,train_loss:0.245
+17/23,train_loss:0.234
+18/23,train_loss:0.231
+19/23,train_loss:0.232
+20/23,train_loss:0.224
+21/23,train_loss:0.236
+22/23,train_loss:0.222
+23/23,train_loss:0.213
+epoch 2 loss:0.253
+Epoch 3/5
+----------
+1/23,train_loss:0.217
+2/23,train_loss:0.218
+3/23,train_loss:0.238
+4/23,train_loss:0.211
+5/23,train_loss:0.210
+6/23,train_loss:0.208
+7/23,train_loss:0.205
+8/23,train_loss:0.208
+9/23,train_loss:0.212
+10/23,train_loss:0.193
+11/23,train_loss:0.203
+12/23,train_loss:0.234
+13/23,train_loss:0.197
+14/23,train_loss:0.201
+15/23,train_loss:0.193
+16/23,train_loss:0.234
+17/23,train_loss:0.185
+18/23,train_loss:0.185
+19/23,train_loss:0.209
+20/23,train_loss:0.198
+21/23,train_loss:0.184
+22/23,train_loss:0.180
+23/23,train_loss:0.174
+epoch 3 loss:0.204
+Epoch 4/5
+----------
+1/23,train_loss:0.192
+2/23,train_loss:0.189
+3/23,train_loss:0.183
+4/23,train_loss:0.183
+5/23,train_loss:0.195
+6/23,train_loss:0.173
+7/23,train_loss:0.174
+8/23,train_loss:0.186
+9/23,train_loss:0.185
+10/23,train_loss:0.164
+11/23,train_loss:0.177
+12/23,train_loss:0.169
+13/23,train_loss:0.156
+14/23,train_loss:0.164
+15/23,train_loss:0.158
+16/23,train_loss:0.163
+17/23,train_loss:0.164
+18/23,train_loss:0.159
+19/23,train_loss:0.165
+20/23,train_loss:0.179
+21/23,train_loss:0.157
+22/23,train_loss:0.191
+23/23,train_loss:0.169
+epoch 4 loss:0.174
+Epoch 5/5
+----------
+1/23,train_loss:0.156
+2/23,train_loss:0.184
+3/23,train_loss:0.152
+4/23,train_loss:0.164
+5/23,train_loss:0.150
+6/23,train_loss:0.155
+7/23,train_loss:0.144
+8/23,train_loss:0.181
+9/23,train_loss:0.159
+10/23,train_loss:0.179
+11/23,train_loss:0.175
+12/23,train_loss:0.148
+13/23,train_loss:0.150
+14/23,train_loss:0.155
+15/23,train_loss:0.148
+16/23,train_loss:0.157
+17/23,train_loss:0.139
+18/23,train_loss:0.157
+19/23,train_loss:0.149
+20/23,train_loss:0.156
+21/23,train_loss:0.175
+22/23,train_loss:0.132
+23/23,train_loss:0.134
+epoch 5 loss:0.157
+
+
+%run train_test_evaluate test --datasetname='DRIVE'
+
+index:1 dice score:0.8297099055045265
+index:2 dice score:0.8287949542118989
+index:3 dice score:0.7990722446525212
+index:4 dice score:0.7737353239599942
+index:5 dice score:0.7501107665042092
+index:6 dice score:0.736418905667778
+index:7 dice score:0.7807346326836582
+index:8 dice score:0.811734443900049
+index:9 dice score:0.7925742574257426
+index:10 dice score:0.7724620770128354
+index:11 dice score:0.8142943184099578
+index:12 dice score:0.8366117531349889
+index:13 dice score:0.752596874717731
+index:14 dice score:0.7819158791921438
+index:15 dice score:0.8407057446274772
+index:16 dice score:0.790240760125614
+index:17 dice score:0.8055893074119077
+index:18 dice score:0.8419537472411477
+index:19 dice score:0.8048796658489691
+index:20 dice score:0.7675104448267388
+index:21 dice score:0.7180045531030387
+index:22 dice score:0.7561423873089572
+index:23 dice score:0.6703225806451613
+index:24 dice score:0.6476319089418346
+index:25 dice score:0.7377244213714038
+index:26 dice score:0.7472294926769505
+index:27 dice score:0.7632150615496017
+index:28 dice score:0.8383145516903479
+index:29 dice score:0.8286048932847475
+index:30 dice score:0.7994041064835805
+index:31 dice score:0.7959802201308024
+index:32 dice score:0.8460909388289173
+index:33 dice score:0.8226716645384521
+index:34 dice score:0.6729400410182169
+index:35 dice score:0.8071216617210683
+index:36 dice score:0.8198539869157107
+index:37 dice score:0.8110170138094148
+index:38 dice score:0.810272134917593
+index:39 dice score:0.7870073624945864
+index:40 dice score:0.7710793879018178
+index:41 dice score:0.7117437722419929
+index:42 dice score:0.6714681440443213
+index:43 dice score:0.7521124856350977
+index:44 dice score:0.7454962787786047
+index:45 dice score:0.7106001629401647
+index:46 dice score:0.7016634851377147
+index:47 dice score:0.7469930365055919
+index:48 dice score:0.7577943513877002
+index:49 dice score:0.6237424547283702
+index:50 dice score:0.6715496666940992
+index:51 dice score:0.737471663531568
+index:52 dice score:0.6584392919471453
+index:53 dice score:0.7385019710906702
+index:54 dice score:0.7957613734780172
+index:55 dice score:0.7159673175460463
+index:56 dice score:0.7263157894736842
+index:57 dice score:0.7859102064385737
+index:58 dice score:0.6218989479153136
+index:59 dice score:0.6277504270069326
+index:60 dice score:0.7933511614493209
+index:61 dice score:0.7073670585697336
+index:62 dice score:0.7300138538016462
+index:63 dice score:0.8008331456879081
+index:64 dice score:0.6968174204355109
+index:65 dice score:0.7107327658153898
+index:66 dice score:0.7116939890710382
+index:67 dice score:0.5217391304347826
+index:68 dice score:0.5316423589093215
+index:69 dice score:0.6872949501447411
+index:70 dice score:0.6649980239757608
+index:71 dice score:0.7245220282626766
+index:72 dice score:0.7662030006681649
+index:73 dice score:0.7430568328122126
+index:74 dice score:0.7651911788037442
+index:75 dice score:0.7073257048484134
+index:76 dice score:0.7066019295037518
+index:77 dice score:0.6698645598194131
+index:78 dice score:0.6029132362254591
+index:79 dice score:0.6875153902979562
+index:80 dice score:0.6874564459930314
+index:81 dice score:0.6774159553166825
+index:82 dice score:0.7912149795860904
+index:83 dice score:0.8141836173721825
+index:84 dice score:0.8191653786707882
+index:85 dice score:0.6580751302440362
+index:86 dice score:0.7039848197343453
+index:87 dice score:0.7602943654850851
+index:88 dice score:0.6683537897001138
+index:89 dice score:0.7610169491525424
+index:90 dice score:0.788251441119956
+index:91 dice score:0.8344713915705204
+index:92 dice score:0.7584920956627482
+index:93 dice score:0.7026369168356998
+index:94 dice score:0.8349673202614379
+index:95 dice score:0.7376069756176328
+index:96 dice score:0.6556103108415466
+index:97 dice score:0.8137147284819526
+index:98 dice score:0.7343868841375814
+index:99 dice score:0.7167332445628052
+index:100 dice score:0.7576724772894672
+index:101 dice score:0.7737153445941131
+index:102 dice score:0.7791081750619323
+index:103 dice score:0.7381283298586981
+index:104 dice score:0.6950860608222599
+index:105 dice score:0.6792710706150342
+index:106 dice score:0.7914163090128755
+index:107 dice score:0.7807892149978936
+index:108 dice score:0.7079326923076923
+index:109 dice score:0.6867088607594937
+index:110 dice score:0.766517921404923
+index:111 dice score:0.78824095061474
+index:112 dice score:0.6331141661685594
+index:113 dice score:0.7044676276180616
+index:115 dice score:0.747887323943662
+index:116 dice score:0.7850209781451563
+index:117 dice score:0.7975151452921244
+index:118 dice score:0.7663934426229508
+index:119 dice score:0.7870156734823773
+index:120 dice score:0.7933170099380671
+index:121 dice score:0.6776306992913491
+index:122 dice score:0.6527592231014284
+index:123 dice score:0.7640910548252645
+index:124 dice score:0.6801795280150572
+index:125 dice score:0.710610002891009
+index:126 dice score:0.8234587189039779
+index:127 dice score:0.8329795918367346
+index:128 dice score:0.8262011026516146
+index:129 dice score:0.7653206650831353
+index:130 dice score:0.8199233716475096
+index:131 dice score:0.8383784048119712
+index:132 dice score:0.7911357340720222
+index:133 dice score:0.7666254253015775
+index:134 dice score:0.8187051290343444
+index:135 dice score:0.8165790287658522
+index:136 dice score:0.7533045089561458
+index:137 dice score:0.7914235310082779
+index:138 dice score:0.8171975324184817
+index:139 dice score:0.7228680277425027
+index:140 dice score:0.7452861178634781
+index:141 dice score:0.8137283376899991
+index:142 dice score:0.7383646331505891
+index:143 dice score:0.7892099663669435
+index:144 dice score:0.846106338779406
+index:145 dice score:0.7633114062306069
+index:146 dice score:0.7449642084235059
+index:147 dice score:0.7424896197997232
+index:148 dice score:0.6029718776863564
+index:149 dice score:0.6120414673046252
+index:150 dice score:0.7445219430899327
+index:151 dice score:0.49935242480932507
+index:152 dice score:0.6701644479248238
+index:153 dice score:0.7998323955465102
+index:154 dice score:0.7153024911032029
+index:155 dice score:0.7268623024830699
+index:156 dice score:0.8005720414730068
+index:157 dice score:0.6539608453260729
+index:158 dice score:0.6671505599336375
+index:159 dice score:0.8052051823526054
+index:160 dice score:0.6401679916004199
+index:161 dice score:0.7497205743272289
+index:162 dice score:0.8321235165341629
+index:163 dice score:0.8326001389210466
+index:164 dice score:0.8502375542243338
+index:165 dice score:0.8595675132009052
+index:166 dice score:0.7839273640490679
+index:167 dice score:0.8214912615431581
+index:168 dice score:0.8560377737592928
+index:169 dice score:0.7936410256410257
+index:170 dice score:0.8444845039173542
+index:171 dice score:0.8760182012246504
+index:172 dice score:0.7836360951115049
+index:173 dice score:0.8184245660881175
+index:174 dice score:0.8071322899634041
+index:175 dice score:0.7032585083272991
+index:176 dice score:0.720252878753669
+index:177 dice score:0.7804011838211115
+index:178 dice score:0.7365003006614552
+index:179 dice score:0.791427163737888
+index:180 dice score:0.8211850380668653
+Average Dice Score: 75.1572%
+
+
+
+CHASE, Unet++
+train_num=20*36=720, batch_size=2;
+test_num=8*36=288, batch_size=1
+
+%run train_test_evaluate train
+
+Epoch 1/5
+----------
+1/360,train_loss:0.696
+2/360,train_loss:0.674
+3/360,train_loss:0.611
+4/360,train_loss:0.554
+5/360,train_loss:0.480
+6/360,train_loss:0.459
+7/360,train_loss:0.398
+8/360,train_loss:0.338
+9/360,train_loss:0.385
+10/360,train_loss:0.368
+11/360,train_loss:0.424
+12/360,train_loss:0.279
+13/360,train_loss:0.310
+14/360,train_loss:0.353
+15/360,train_loss:0.416
+16/360,train_loss:0.354
+17/360,train_loss:0.396
+18/360,train_loss:0.319
+19/360,train_loss:0.227
+20/360,train_loss:0.148
+21/360,train_loss:0.250
+22/360,train_loss:0.504
+23/360,train_loss:0.264
+24/360,train_loss:0.152
+25/360,train_loss:0.347
+26/360,train_loss:0.213
+27/360,train_loss:0.237
+28/360,train_loss:0.202
+29/360,train_loss:0.202
+30/360,train_loss:0.313
+31/360,train_loss:0.170
+32/360,train_loss:0.162
+33/360,train_loss:0.251
+34/360,train_loss:0.208
+35/360,train_loss:0.192
+36/360,train_loss:0.341
+37/360,train_loss:0.189
+38/360,train_loss:0.151
+39/360,train_loss:0.279
+40/360,train_loss:0.166
+41/360,train_loss:0.168
+42/360,train_loss:0.191
+43/360,train_loss:0.228
+44/360,train_loss:0.143
+45/360,train_loss:0.138
+46/360,train_loss:0.151
+47/360,train_loss:0.422
+48/360,train_loss:0.155
+49/360,train_loss:0.187
+50/360,train_loss:0.271
+51/360,train_loss:0.137
+52/360,train_loss:0.235
+53/360,train_loss:0.167
+54/360,train_loss:0.325
+55/360,train_loss:0.207
+56/360,train_loss:0.192
+57/360,train_loss:0.285
+58/360,train_loss:0.292
+59/360,train_loss:0.225
+60/360,train_loss:0.182
+61/360,train_loss:0.348
+62/360,train_loss:0.191
+63/360,train_loss:0.190
+64/360,train_loss:0.176
+65/360,train_loss:0.177
+66/360,train_loss:0.257
+67/360,train_loss:0.174
+68/360,train_loss:0.161
+69/360,train_loss:0.244
+70/360,train_loss:0.231
+71/360,train_loss:0.241
+72/360,train_loss:0.356
+73/360,train_loss:0.168
+74/360,train_loss:0.199
+75/360,train_loss:0.174
+76/360,train_loss:0.172
+77/360,train_loss:0.145
+78/360,train_loss:0.242
+79/360,train_loss:0.200
+80/360,train_loss:0.326
+81/360,train_loss:0.271
+82/360,train_loss:0.218
+83/360,train_loss:0.165
+84/360,train_loss:0.150
+85/360,train_loss:0.249
+86/360,train_loss:0.134
+87/360,train_loss:0.265
+88/360,train_loss:0.356
+89/360,train_loss:0.179
+90/360,train_loss:0.112
+91/360,train_loss:0.246
+92/360,train_loss:0.266
+93/360,train_loss:0.145
+94/360,train_loss:0.200
+95/360,train_loss:0.204
+96/360,train_loss:0.196
+97/360,train_loss:0.257
+98/360,train_loss:0.137
+99/360,train_loss:0.125
+100/360,train_loss:0.149
+101/360,train_loss:0.157
+102/360,train_loss:0.237
+103/360,train_loss:0.225
+104/360,train_loss:0.221
+105/360,train_loss:0.205
+106/360,train_loss:0.157
+107/360,train_loss:0.218
+108/360,train_loss:0.164
+109/360,train_loss:0.381
+110/360,train_loss:0.226
+111/360,train_loss:0.210
+112/360,train_loss:0.205
+113/360,train_loss:0.171
+114/360,train_loss:0.184
+115/360,train_loss:0.170
+116/360,train_loss:0.208
+117/360,train_loss:0.225
+118/360,train_loss:0.117
+119/360,train_loss:0.175
+120/360,train_loss:0.233
+121/360,train_loss:0.301
+122/360,train_loss:0.128
+123/360,train_loss:0.182
+124/360,train_loss:0.190
+125/360,train_loss:0.203
+126/360,train_loss:0.170
+127/360,train_loss:0.169
+128/360,train_loss:0.269
+129/360,train_loss:0.151
+130/360,train_loss:0.100
+131/360,train_loss:0.197
+132/360,train_loss:0.221
+133/360,train_loss:0.346
+134/360,train_loss:0.333
+135/360,train_loss:0.141
+136/360,train_loss:0.230
+137/360,train_loss:0.151
+138/360,train_loss:0.158
+139/360,train_loss:0.176
+140/360,train_loss:0.170
+141/360,train_loss:0.229
+142/360,train_loss:0.373
+143/360,train_loss:0.125
+144/360,train_loss:0.123
+145/360,train_loss:0.225
+146/360,train_loss:0.182
+147/360,train_loss:0.203
+148/360,train_loss:0.209
+149/360,train_loss:0.206
+150/360,train_loss:0.105
+151/360,train_loss:0.136
+152/360,train_loss:0.127
+153/360,train_loss:0.218
+154/360,train_loss:0.221
+155/360,train_loss:0.131
+156/360,train_loss:0.290
+157/360,train_loss:0.142
+158/360,train_loss:0.144
+159/360,train_loss:0.166
+160/360,train_loss:0.211
+161/360,train_loss:0.173
+162/360,train_loss:0.172
+163/360,train_loss:0.158
+164/360,train_loss:0.103
+165/360,train_loss:0.143
+166/360,train_loss:0.130
+167/360,train_loss:0.121
+168/360,train_loss:0.245
+169/360,train_loss:0.112
+170/360,train_loss:0.201
+171/360,train_loss:0.090
+172/360,train_loss:0.131
+173/360,train_loss:0.245
+174/360,train_loss:0.110
+175/360,train_loss:0.238
+176/360,train_loss:0.118
+177/360,train_loss:0.106
+178/360,train_loss:0.185
+179/360,train_loss:0.184
+180/360,train_loss:0.242
+181/360,train_loss:0.120
+182/360,train_loss:0.261
+183/360,train_loss:0.101
+184/360,train_loss:0.219
+185/360,train_loss:0.190
+186/360,train_loss:0.192
+187/360,train_loss:0.173
+188/360,train_loss:0.172
+189/360,train_loss:0.189
+190/360,train_loss:0.113
+191/360,train_loss:0.158
+192/360,train_loss:0.173
+193/360,train_loss:0.187
+194/360,train_loss:0.106
+195/360,train_loss:0.158
+196/360,train_loss:0.153
+197/360,train_loss:0.205
+198/360,train_loss:0.166
+199/360,train_loss:0.119
+200/360,train_loss:0.147
+201/360,train_loss:0.228
+202/360,train_loss:0.114
+203/360,train_loss:0.155
+204/360,train_loss:0.184
+205/360,train_loss:0.136
+206/360,train_loss:0.161
+207/360,train_loss:0.143
+208/360,train_loss:0.130
+209/360,train_loss:0.135
+210/360,train_loss:0.127
+211/360,train_loss:0.135
+212/360,train_loss:0.091
+213/360,train_loss:0.114
+214/360,train_loss:0.182
+215/360,train_loss:0.301
+216/360,train_loss:0.122
+217/360,train_loss:0.361
+218/360,train_loss:0.163
+219/360,train_loss:0.128
+220/360,train_loss:0.115
+221/360,train_loss:0.128
+222/360,train_loss:0.132
+223/360,train_loss:0.107
+224/360,train_loss:0.124
+225/360,train_loss:0.128
+226/360,train_loss:0.210
+227/360,train_loss:0.151
+228/360,train_loss:0.111
+229/360,train_loss:0.111
+230/360,train_loss:0.120
+231/360,train_loss:0.161
+232/360,train_loss:0.209
+233/360,train_loss:0.152
+234/360,train_loss:0.128
+235/360,train_loss:0.220
+236/360,train_loss:0.161
+237/360,train_loss:0.127
+238/360,train_loss:0.197
+239/360,train_loss:0.119
+240/360,train_loss:0.134
+241/360,train_loss:0.138
+242/360,train_loss:0.251
+243/360,train_loss:0.150
+244/360,train_loss:0.094
+245/360,train_loss:0.156
+246/360,train_loss:0.130
+247/360,train_loss:0.182
+248/360,train_loss:0.110
+249/360,train_loss:0.096
+250/360,train_loss:0.128
+251/360,train_loss:0.098
+252/360,train_loss:0.169
+253/360,train_loss:0.104
+254/360,train_loss:0.252
+255/360,train_loss:0.247
+256/360,train_loss:0.140
+257/360,train_loss:0.140
+258/360,train_loss:0.110
+259/360,train_loss:0.151
+260/360,train_loss:0.171
+261/360,train_loss:0.140
+262/360,train_loss:0.163
+263/360,train_loss:0.138
+264/360,train_loss:0.258
+265/360,train_loss:0.133
+266/360,train_loss:0.090
+267/360,train_loss:0.221
+268/360,train_loss:0.135
+269/360,train_loss:0.168
+270/360,train_loss:0.105
+271/360,train_loss:0.222
+272/360,train_loss:0.322
+273/360,train_loss:0.142
+274/360,train_loss:0.135
+275/360,train_loss:0.183
+276/360,train_loss:0.215
+277/360,train_loss:0.192
+278/360,train_loss:0.110
+279/360,train_loss:0.144
+280/360,train_loss:0.138
+281/360,train_loss:0.158
+282/360,train_loss:0.254
+283/360,train_loss:0.135
+284/360,train_loss:0.150
+285/360,train_loss:0.161
+286/360,train_loss:0.108
+287/360,train_loss:0.112
+288/360,train_loss:0.258
+289/360,train_loss:0.143
+290/360,train_loss:0.227
+291/360,train_loss:0.118
+292/360,train_loss:0.099
+293/360,train_loss:0.193
+294/360,train_loss:0.221
+295/360,train_loss:0.133
+296/360,train_loss:0.113
+297/360,train_loss:0.087
+298/360,train_loss:0.116
+299/360,train_loss:0.138
+300/360,train_loss:0.127
+301/360,train_loss:0.155
+302/360,train_loss:0.201
+303/360,train_loss:0.164
+304/360,train_loss:0.119
+305/360,train_loss:0.146
+306/360,train_loss:0.140
+307/360,train_loss:0.138
+308/360,train_loss:0.100
+309/360,train_loss:0.114
+310/360,train_loss:0.115
+311/360,train_loss:0.103
+312/360,train_loss:0.111
+313/360,train_loss:0.278
+314/360,train_loss:0.123
+315/360,train_loss:0.136
+316/360,train_loss:0.089
+317/360,train_loss:0.125
+318/360,train_loss:0.178
+319/360,train_loss:0.125
+320/360,train_loss:0.231
+321/360,train_loss:0.134
+322/360,train_loss:0.128
+323/360,train_loss:0.136
+324/360,train_loss:0.112
+325/360,train_loss:0.149
+326/360,train_loss:0.138
+327/360,train_loss:0.136
+328/360,train_loss:0.146
+329/360,train_loss:0.152
+330/360,train_loss:0.157
+331/360,train_loss:0.130
+332/360,train_loss:0.144
+333/360,train_loss:0.120
+334/360,train_loss:0.084
+335/360,train_loss:0.209
+336/360,train_loss:0.142
+337/360,train_loss:0.114
+338/360,train_loss:0.090
+339/360,train_loss:0.133
+340/360,train_loss:0.132
+341/360,train_loss:0.162
+342/360,train_loss:0.149
+343/360,train_loss:0.108
+344/360,train_loss:0.126
+345/360,train_loss:0.145
+346/360,train_loss:0.132
+347/360,train_loss:0.163
+348/360,train_loss:0.143
+349/360,train_loss:0.126
+350/360,train_loss:0.130
+351/360,train_loss:0.102
+352/360,train_loss:0.106
+353/360,train_loss:0.182
+354/360,train_loss:0.115
+355/360,train_loss:0.167
+356/360,train_loss:0.100
+357/360,train_loss:0.091
+358/360,train_loss:0.134
+359/360,train_loss:0.105
+360/360,train_loss:0.084
+epoch 1 loss:0.188
+Epoch 2/5
+----------
+1/360,train_loss:0.224
+2/360,train_loss:0.108
+3/360,train_loss:0.228
+4/360,train_loss:0.088
+5/360,train_loss:0.092
+6/360,train_loss:0.134
+7/360,train_loss:0.101
+8/360,train_loss:0.154
+9/360,train_loss:0.124
+10/360,train_loss:0.179
+11/360,train_loss:0.057
+12/360,train_loss:0.099
+13/360,train_loss:0.132
+14/360,train_loss:0.106
+15/360,train_loss:0.109
+16/360,train_loss:0.059
+17/360,train_loss:0.181
+18/360,train_loss:0.246
+19/360,train_loss:0.114
+20/360,train_loss:0.090
+21/360,train_loss:0.093
+22/360,train_loss:0.117
+23/360,train_loss:0.141
+24/360,train_loss:0.132
+25/360,train_loss:0.129
+26/360,train_loss:0.107
+27/360,train_loss:0.114
+28/360,train_loss:0.153
+29/360,train_loss:0.088
+30/360,train_loss:0.080
+31/360,train_loss:0.147
+32/360,train_loss:0.132
+33/360,train_loss:0.236
+34/360,train_loss:0.098
+35/360,train_loss:0.113
+36/360,train_loss:0.064
+37/360,train_loss:0.118
+38/360,train_loss:0.109
+39/360,train_loss:0.089
+40/360,train_loss:0.230
+41/360,train_loss:0.187
+42/360,train_loss:0.096
+43/360,train_loss:0.112
+44/360,train_loss:0.096
+45/360,train_loss:0.222
+46/360,train_loss:0.112
+47/360,train_loss:0.141
+48/360,train_loss:0.129
+49/360,train_loss:0.113
+50/360,train_loss:0.079
+51/360,train_loss:0.145
+52/360,train_loss:0.122
+53/360,train_loss:0.123
+54/360,train_loss:0.071
+55/360,train_loss:0.109
+56/360,train_loss:0.093
+57/360,train_loss:0.196
+58/360,train_loss:0.104
+59/360,train_loss:0.152
+60/360,train_loss:0.146
+61/360,train_loss:0.127
+62/360,train_loss:0.106
+63/360,train_loss:0.145
+64/360,train_loss:0.122
+65/360,train_loss:0.082
+66/360,train_loss:0.141
+67/360,train_loss:0.096
+68/360,train_loss:0.122
+69/360,train_loss:0.248
+70/360,train_loss:0.156
+71/360,train_loss:0.114
+72/360,train_loss:0.071
+73/360,train_loss:0.144
+74/360,train_loss:0.193
+75/360,train_loss:0.137
+76/360,train_loss:0.113
+77/360,train_loss:0.164
+78/360,train_loss:0.111
+79/360,train_loss:0.190
+80/360,train_loss:0.137
+81/360,train_loss:0.121
+82/360,train_loss:0.144
+83/360,train_loss:0.146
+84/360,train_loss:0.054
+85/360,train_loss:0.141
+86/360,train_loss:0.106
+87/360,train_loss:0.145
+88/360,train_loss:0.107
+89/360,train_loss:0.105
+90/360,train_loss:0.108
+91/360,train_loss:0.090
+92/360,train_loss:0.122
+93/360,train_loss:0.091
+94/360,train_loss:0.210
+95/360,train_loss:0.159
+96/360,train_loss:0.154
+97/360,train_loss:0.126
+98/360,train_loss:0.149
+99/360,train_loss:0.109
+100/360,train_loss:0.183
+101/360,train_loss:0.137
+102/360,train_loss:0.197
+103/360,train_loss:0.187
+104/360,train_loss:0.217
+105/360,train_loss:0.136
+106/360,train_loss:0.147
+107/360,train_loss:0.121
+108/360,train_loss:0.153
+109/360,train_loss:0.168
+110/360,train_loss:0.134
+111/360,train_loss:0.102
+112/360,train_loss:0.106
+113/360,train_loss:0.073
+114/360,train_loss:0.074
+115/360,train_loss:0.164
+116/360,train_loss:0.079
+117/360,train_loss:0.208
+118/360,train_loss:0.101
+119/360,train_loss:0.166
+120/360,train_loss:0.172
+121/360,train_loss:0.201
+122/360,train_loss:0.102
+123/360,train_loss:0.119
+124/360,train_loss:0.178
+125/360,train_loss:0.087
+126/360,train_loss:0.082
+127/360,train_loss:0.101
+128/360,train_loss:0.118
+129/360,train_loss:0.142
+130/360,train_loss:0.194
+131/360,train_loss:0.166
+132/360,train_loss:0.147
+133/360,train_loss:0.079
+134/360,train_loss:0.130
+135/360,train_loss:0.120
+136/360,train_loss:0.107
+137/360,train_loss:0.102
+138/360,train_loss:0.086
+139/360,train_loss:0.155
+140/360,train_loss:0.142
+141/360,train_loss:0.179
+142/360,train_loss:0.115
+143/360,train_loss:0.124
+144/360,train_loss:0.117
+145/360,train_loss:0.146
+146/360,train_loss:0.106
+147/360,train_loss:0.085
+148/360,train_loss:0.164
+149/360,train_loss:0.107
+150/360,train_loss:0.174
+151/360,train_loss:0.121
+152/360,train_loss:0.146
+153/360,train_loss:0.133
+154/360,train_loss:0.169
+155/360,train_loss:0.103
+156/360,train_loss:0.163
+157/360,train_loss:0.119
+158/360,train_loss:0.169
+159/360,train_loss:0.090
+160/360,train_loss:0.163
+161/360,train_loss:0.112
+162/360,train_loss:0.151
+163/360,train_loss:0.087
+164/360,train_loss:0.095
+165/360,train_loss:0.099
+166/360,train_loss:0.091
+167/360,train_loss:0.099
+168/360,train_loss:0.087
+169/360,train_loss:0.088
+170/360,train_loss:0.157
+171/360,train_loss:0.106
+172/360,train_loss:0.103
+173/360,train_loss:0.087
+174/360,train_loss:0.153
+175/360,train_loss:0.099
+176/360,train_loss:0.079
+177/360,train_loss:0.148
+178/360,train_loss:0.143
+179/360,train_loss:0.075
+180/360,train_loss:0.076
+181/360,train_loss:0.078
+182/360,train_loss:0.168
+183/360,train_loss:0.118
+184/360,train_loss:0.097
+185/360,train_loss:0.158
+186/360,train_loss:0.222
+187/360,train_loss:0.129
+188/360,train_loss:0.120
+189/360,train_loss:0.141
+190/360,train_loss:0.073
+191/360,train_loss:0.098
+192/360,train_loss:0.153
+193/360,train_loss:0.110
+194/360,train_loss:0.054
+195/360,train_loss:0.120
+196/360,train_loss:0.167
+197/360,train_loss:0.135
+198/360,train_loss:0.073
+199/360,train_loss:0.178
+200/360,train_loss:0.170
+201/360,train_loss:0.122
+202/360,train_loss:0.089
+203/360,train_loss:0.043
+204/360,train_loss:0.053
+205/360,train_loss:0.094
+206/360,train_loss:0.153
+207/360,train_loss:0.135
+208/360,train_loss:0.151
+209/360,train_loss:0.109
+210/360,train_loss:0.115
+211/360,train_loss:0.151
+212/360,train_loss:0.158
+213/360,train_loss:0.110
+214/360,train_loss:0.113
+215/360,train_loss:0.151
+216/360,train_loss:0.156
+217/360,train_loss:0.118
+218/360,train_loss:0.109
+219/360,train_loss:0.091
+220/360,train_loss:0.112
+221/360,train_loss:0.145
+222/360,train_loss:0.102
+223/360,train_loss:0.105
+224/360,train_loss:0.095
+225/360,train_loss:0.129
+226/360,train_loss:0.089
+227/360,train_loss:0.089
+228/360,train_loss:0.188
+229/360,train_loss:0.132
+230/360,train_loss:0.103
+231/360,train_loss:0.159
+232/360,train_loss:0.167
+233/360,train_loss:0.120
+234/360,train_loss:0.099
+235/360,train_loss:0.087
+236/360,train_loss:0.178
+237/360,train_loss:0.175
+238/360,train_loss:0.107
+239/360,train_loss:0.143
+240/360,train_loss:0.123
+241/360,train_loss:0.088
+242/360,train_loss:0.192
+243/360,train_loss:0.075
+244/360,train_loss:0.095
+245/360,train_loss:0.093
+246/360,train_loss:0.128
+247/360,train_loss:0.148
+248/360,train_loss:0.066
+249/360,train_loss:0.080
+250/360,train_loss:0.123
+251/360,train_loss:0.090
+252/360,train_loss:0.133
+253/360,train_loss:0.127
+254/360,train_loss:0.142
+255/360,train_loss:0.090
+256/360,train_loss:0.105
+257/360,train_loss:0.068
+258/360,train_loss:0.106
+259/360,train_loss:0.084
+260/360,train_loss:0.120
+261/360,train_loss:0.147
+262/360,train_loss:0.346
+263/360,train_loss:0.159
+264/360,train_loss:0.085
+265/360,train_loss:0.133
+266/360,train_loss:0.143
+267/360,train_loss:0.137
+268/360,train_loss:0.135
+269/360,train_loss:0.086
+270/360,train_loss:0.117
+271/360,train_loss:0.071
+272/360,train_loss:0.112
+273/360,train_loss:0.065
+274/360,train_loss:0.073
+275/360,train_loss:0.075
+276/360,train_loss:0.109
+277/360,train_loss:0.131
+278/360,train_loss:0.244
+279/360,train_loss:0.151
+280/360,train_loss:0.123
+281/360,train_loss:0.121
+282/360,train_loss:0.108
+283/360,train_loss:0.063
+284/360,train_loss:0.129
+285/360,train_loss:0.139
+286/360,train_loss:0.080
+287/360,train_loss:0.098
+288/360,train_loss:0.107
+289/360,train_loss:0.053
+290/360,train_loss:0.148
+291/360,train_loss:0.126
+292/360,train_loss:0.127
+293/360,train_loss:0.150
+294/360,train_loss:0.134
+295/360,train_loss:0.081
+296/360,train_loss:0.121
+297/360,train_loss:0.086
+298/360,train_loss:0.111
+299/360,train_loss:0.133
+300/360,train_loss:0.104
+301/360,train_loss:0.087
+302/360,train_loss:0.090
+303/360,train_loss:0.148
+304/360,train_loss:0.157
+305/360,train_loss:0.168
+306/360,train_loss:0.093
+307/360,train_loss:0.147
+308/360,train_loss:0.146
+309/360,train_loss:0.125
+310/360,train_loss:0.112
+311/360,train_loss:0.086
+312/360,train_loss:0.109
+313/360,train_loss:0.113
+314/360,train_loss:0.118
+315/360,train_loss:0.122
+316/360,train_loss:0.214
+317/360,train_loss:0.252
+318/360,train_loss:0.124
+319/360,train_loss:0.102
+320/360,train_loss:0.108
+321/360,train_loss:0.142
+322/360,train_loss:0.104
+323/360,train_loss:0.106
+324/360,train_loss:0.180
+325/360,train_loss:0.104
+326/360,train_loss:0.136
+327/360,train_loss:0.105
+328/360,train_loss:0.077
+329/360,train_loss:0.153
+330/360,train_loss:0.120
+331/360,train_loss:0.120
+332/360,train_loss:0.109
+333/360,train_loss:0.093
+334/360,train_loss:0.108
+335/360,train_loss:0.110
+336/360,train_loss:0.070
+337/360,train_loss:0.080
+338/360,train_loss:0.144
+339/360,train_loss:0.156
+340/360,train_loss:0.088
+341/360,train_loss:0.090
+342/360,train_loss:0.103
+343/360,train_loss:0.121
+344/360,train_loss:0.098
+345/360,train_loss:0.087
+346/360,train_loss:0.098
+347/360,train_loss:0.102
+348/360,train_loss:0.086
+349/360,train_loss:0.114
+350/360,train_loss:0.138
+351/360,train_loss:0.121
+352/360,train_loss:0.095
+353/360,train_loss:0.154
+354/360,train_loss:0.175
+355/360,train_loss:0.082
+356/360,train_loss:0.152
+357/360,train_loss:0.189
+358/360,train_loss:0.170
+359/360,train_loss:0.091
+360/360,train_loss:0.200
+epoch 2 loss:0.125
+Epoch 3/5
+----------
+1/360,train_loss:0.139
+2/360,train_loss:0.125
+3/360,train_loss:0.075
+4/360,train_loss:0.091
+5/360,train_loss:0.118
+6/360,train_loss:0.178
+7/360,train_loss:0.102
+8/360,train_loss:0.084
+9/360,train_loss:0.087
+10/360,train_loss:0.142
+11/360,train_loss:0.079
+12/360,train_loss:0.130
+13/360,train_loss:0.114
+14/360,train_loss:0.108
+15/360,train_loss:0.145
+16/360,train_loss:0.097
+17/360,train_loss:0.102
+18/360,train_loss:0.158
+19/360,train_loss:0.162
+20/360,train_loss:0.120
+21/360,train_loss:0.116
+22/360,train_loss:0.072
+23/360,train_loss:0.119
+24/360,train_loss:0.095
+25/360,train_loss:0.108
+26/360,train_loss:0.106
+27/360,train_loss:0.112
+28/360,train_loss:0.085
+29/360,train_loss:0.096
+30/360,train_loss:0.094
+31/360,train_loss:0.179
+32/360,train_loss:0.098
+33/360,train_loss:0.101
+34/360,train_loss:0.155
+35/360,train_loss:0.121
+36/360,train_loss:0.115
+37/360,train_loss:0.088
+38/360,train_loss:0.234
+39/360,train_loss:0.106
+40/360,train_loss:0.085
+41/360,train_loss:0.109
+42/360,train_loss:0.101
+43/360,train_loss:0.104
+44/360,train_loss:0.060
+45/360,train_loss:0.155
+46/360,train_loss:0.093
+47/360,train_loss:0.144
+48/360,train_loss:0.086
+49/360,train_loss:0.114
+50/360,train_loss:0.122
+51/360,train_loss:0.099
+52/360,train_loss:0.131
+53/360,train_loss:0.128
+54/360,train_loss:0.089
+55/360,train_loss:0.055
+56/360,train_loss:0.097
+57/360,train_loss:0.046
+58/360,train_loss:0.159
+59/360,train_loss:0.131
+60/360,train_loss:0.104
+61/360,train_loss:0.085
+62/360,train_loss:0.095
+63/360,train_loss:0.088
+64/360,train_loss:0.104
+65/360,train_loss:0.224
+66/360,train_loss:0.164
+67/360,train_loss:0.194
+68/360,train_loss:0.184
+69/360,train_loss:0.079
+70/360,train_loss:0.130
+71/360,train_loss:0.118
+72/360,train_loss:0.107
+73/360,train_loss:0.148
+74/360,train_loss:0.131
+75/360,train_loss:0.100
+76/360,train_loss:0.099
+77/360,train_loss:0.092
+78/360,train_loss:0.102
+79/360,train_loss:0.097
+80/360,train_loss:0.070
+81/360,train_loss:0.129
+82/360,train_loss:0.074
+83/360,train_loss:0.070
+84/360,train_loss:0.157
+85/360,train_loss:0.116
+86/360,train_loss:0.067
+87/360,train_loss:0.105
+88/360,train_loss:0.104
+89/360,train_loss:0.086
+90/360,train_loss:0.139
+91/360,train_loss:0.095
+92/360,train_loss:0.081
+93/360,train_loss:0.115
+94/360,train_loss:0.099
+95/360,train_loss:0.124
+96/360,train_loss:0.101
+97/360,train_loss:0.084
+98/360,train_loss:0.070
+99/360,train_loss:0.095
+100/360,train_loss:0.089
+101/360,train_loss:0.062
+102/360,train_loss:0.096
+103/360,train_loss:0.095
+104/360,train_loss:0.073
+105/360,train_loss:0.183
+106/360,train_loss:0.120
+107/360,train_loss:0.121
+108/360,train_loss:0.145
+109/360,train_loss:0.144
+110/360,train_loss:0.080
+111/360,train_loss:0.121
+112/360,train_loss:0.117
+113/360,train_loss:0.131
+114/360,train_loss:0.074
+115/360,train_loss:0.120
+116/360,train_loss:0.092
+117/360,train_loss:0.096
+118/360,train_loss:0.106
+119/360,train_loss:0.114
+120/360,train_loss:0.104
+121/360,train_loss:0.071
+122/360,train_loss:0.096
+123/360,train_loss:0.098
+124/360,train_loss:0.099
+125/360,train_loss:0.244
+126/360,train_loss:0.112
+127/360,train_loss:0.106
+128/360,train_loss:0.124
+129/360,train_loss:0.075
+130/360,train_loss:0.078
+131/360,train_loss:0.128
+132/360,train_loss:0.096
+133/360,train_loss:0.111
+134/360,train_loss:0.103
+135/360,train_loss:0.175
+136/360,train_loss:0.131
+137/360,train_loss:0.158
+138/360,train_loss:0.135
+139/360,train_loss:0.071
+140/360,train_loss:0.178
+141/360,train_loss:0.133
+142/360,train_loss:0.075
+143/360,train_loss:0.095
+144/360,train_loss:0.100
+145/360,train_loss:0.096
+146/360,train_loss:0.080
+147/360,train_loss:0.161
+148/360,train_loss:0.124
+149/360,train_loss:0.035
+150/360,train_loss:0.146
+151/360,train_loss:0.111
+152/360,train_loss:0.135
+153/360,train_loss:0.060
+154/360,train_loss:0.084
+155/360,train_loss:0.265
+156/360,train_loss:0.107
+157/360,train_loss:0.090
+158/360,train_loss:0.124
+159/360,train_loss:0.128
+160/360,train_loss:0.088
+161/360,train_loss:0.163
+162/360,train_loss:0.093
+163/360,train_loss:0.113
+164/360,train_loss:0.051
+165/360,train_loss:0.075
+166/360,train_loss:0.102
+167/360,train_loss:0.103
+168/360,train_loss:0.073
+169/360,train_loss:0.071
+170/360,train_loss:0.138
+171/360,train_loss:0.094
+172/360,train_loss:0.105
+173/360,train_loss:0.097
+174/360,train_loss:0.153
+175/360,train_loss:0.097
+176/360,train_loss:0.144
+177/360,train_loss:0.077
+178/360,train_loss:0.083
+179/360,train_loss:0.250
+180/360,train_loss:0.098
+181/360,train_loss:0.072
+182/360,train_loss:0.111
+183/360,train_loss:0.094
+184/360,train_loss:0.090
+185/360,train_loss:0.099
+186/360,train_loss:0.123
+187/360,train_loss:0.137
+188/360,train_loss:0.100
+189/360,train_loss:0.088
+190/360,train_loss:0.064
+191/360,train_loss:0.101
+192/360,train_loss:0.074
+193/360,train_loss:0.152
+194/360,train_loss:0.096
+195/360,train_loss:0.170
+196/360,train_loss:0.076
+197/360,train_loss:0.078
+198/360,train_loss:0.077
+199/360,train_loss:0.111
+200/360,train_loss:0.179
+201/360,train_loss:0.161
+202/360,train_loss:0.129
+203/360,train_loss:0.110
+204/360,train_loss:0.096
+205/360,train_loss:0.107
+206/360,train_loss:0.125
+207/360,train_loss:0.122
+208/360,train_loss:0.151
+209/360,train_loss:0.105
+210/360,train_loss:0.078
+211/360,train_loss:0.117
+212/360,train_loss:0.097
+213/360,train_loss:0.094
+214/360,train_loss:0.055
+215/360,train_loss:0.102
+216/360,train_loss:0.103
+217/360,train_loss:0.145
+218/360,train_loss:0.079
+219/360,train_loss:0.157
+220/360,train_loss:0.090
+221/360,train_loss:0.101
+222/360,train_loss:0.070
+223/360,train_loss:0.086
+224/360,train_loss:0.136
+225/360,train_loss:0.080
+226/360,train_loss:0.093
+227/360,train_loss:0.092
+228/360,train_loss:0.163
+229/360,train_loss:0.067
+230/360,train_loss:0.173
+231/360,train_loss:0.130
+232/360,train_loss:0.173
+233/360,train_loss:0.086
+234/360,train_loss:0.161
+235/360,train_loss:0.085
+236/360,train_loss:0.114
+237/360,train_loss:0.091
+238/360,train_loss:0.118
+239/360,train_loss:0.094
+240/360,train_loss:0.153
+241/360,train_loss:0.086
+242/360,train_loss:0.109
+243/360,train_loss:0.188
+244/360,train_loss:0.121
+245/360,train_loss:0.132
+246/360,train_loss:0.113
+247/360,train_loss:0.078
+248/360,train_loss:0.149
+249/360,train_loss:0.101
+250/360,train_loss:0.135
+251/360,train_loss:0.073
+252/360,train_loss:0.131
+253/360,train_loss:0.071
+254/360,train_loss:0.106
+255/360,train_loss:0.117
+256/360,train_loss:0.149
+257/360,train_loss:0.121
+258/360,train_loss:0.097
+259/360,train_loss:0.097
+260/360,train_loss:0.133
+261/360,train_loss:0.149
+262/360,train_loss:0.081
+263/360,train_loss:0.105
+264/360,train_loss:0.157
+265/360,train_loss:0.143
+266/360,train_loss:0.119
+267/360,train_loss:0.074
+268/360,train_loss:0.095
+269/360,train_loss:0.100
+270/360,train_loss:0.086
+271/360,train_loss:0.153
+272/360,train_loss:0.076
+273/360,train_loss:0.096
+274/360,train_loss:0.086
+275/360,train_loss:0.138
+276/360,train_loss:0.089
+277/360,train_loss:0.124
+278/360,train_loss:0.101
+279/360,train_loss:0.087
+280/360,train_loss:0.041
+281/360,train_loss:0.124
+282/360,train_loss:0.102
+283/360,train_loss:0.054
+284/360,train_loss:0.105
+285/360,train_loss:0.089
+286/360,train_loss:0.090
+287/360,train_loss:0.149
+288/360,train_loss:0.122
+289/360,train_loss:0.116
+290/360,train_loss:0.068
+291/360,train_loss:0.094
+292/360,train_loss:0.169
+293/360,train_loss:0.101
+294/360,train_loss:0.133
+295/360,train_loss:0.151
+296/360,train_loss:0.106
+297/360,train_loss:0.106
+298/360,train_loss:0.073
+299/360,train_loss:0.101
+300/360,train_loss:0.050
+301/360,train_loss:0.170
+302/360,train_loss:0.073
+303/360,train_loss:0.096
+304/360,train_loss:0.102
+305/360,train_loss:0.063
+306/360,train_loss:0.058
+307/360,train_loss:0.082
+308/360,train_loss:0.055
+309/360,train_loss:0.118
+310/360,train_loss:0.099
+311/360,train_loss:0.118
+312/360,train_loss:0.089
+313/360,train_loss:0.068
+314/360,train_loss:0.096
+315/360,train_loss:0.092
+316/360,train_loss:0.069
+317/360,train_loss:0.129
+318/360,train_loss:0.202
+319/360,train_loss:0.094
+320/360,train_loss:0.065
+321/360,train_loss:0.056
+322/360,train_loss:0.119
+323/360,train_loss:0.116
+324/360,train_loss:0.151
+325/360,train_loss:0.122
+326/360,train_loss:0.116
+327/360,train_loss:0.090
+328/360,train_loss:0.114
+329/360,train_loss:0.100
+330/360,train_loss:0.091
+331/360,train_loss:0.109
+332/360,train_loss:0.096
+333/360,train_loss:0.074
+334/360,train_loss:0.154
+335/360,train_loss:0.099
+336/360,train_loss:0.116
+337/360,train_loss:0.111
+338/360,train_loss:0.099
+339/360,train_loss:0.063
+340/360,train_loss:0.169
+341/360,train_loss:0.096
+342/360,train_loss:0.077
+343/360,train_loss:0.208
+344/360,train_loss:0.131
+345/360,train_loss:0.102
+346/360,train_loss:0.100
+347/360,train_loss:0.056
+348/360,train_loss:0.116
+349/360,train_loss:0.151
+350/360,train_loss:0.157
+351/360,train_loss:0.075
+352/360,train_loss:0.167
+353/360,train_loss:0.105
+354/360,train_loss:0.094
+355/360,train_loss:0.074
+356/360,train_loss:0.126
+357/360,train_loss:0.090
+358/360,train_loss:0.126
+359/360,train_loss:0.067
+360/360,train_loss:0.110
+epoch 3 loss:0.110
+Epoch 4/5
+----------
+1/360,train_loss:0.098
+2/360,train_loss:0.085
+3/360,train_loss:0.048
+4/360,train_loss:0.173
+5/360,train_loss:0.100
+6/360,train_loss:0.126
+7/360,train_loss:0.068
+8/360,train_loss:0.067
+9/360,train_loss:0.096
+10/360,train_loss:0.084
+11/360,train_loss:0.115
+12/360,train_loss:0.166
+13/360,train_loss:0.067
+14/360,train_loss:0.090
+15/360,train_loss:0.109
+16/360,train_loss:0.104
+17/360,train_loss:0.128
+18/360,train_loss:0.070
+19/360,train_loss:0.080
+20/360,train_loss:0.107
+21/360,train_loss:0.086
+22/360,train_loss:0.051
+23/360,train_loss:0.101
+24/360,train_loss:0.122
+25/360,train_loss:0.070
+26/360,train_loss:0.076
+27/360,train_loss:0.085
+28/360,train_loss:0.096
+29/360,train_loss:0.078
+30/360,train_loss:0.079
+31/360,train_loss:0.080
+32/360,train_loss:0.154
+33/360,train_loss:0.144
+34/360,train_loss:0.097
+35/360,train_loss:0.071
+36/360,train_loss:0.130
+37/360,train_loss:0.079
+38/360,train_loss:0.083
+39/360,train_loss:0.202
+40/360,train_loss:0.080
+41/360,train_loss:0.105
+42/360,train_loss:0.094
+43/360,train_loss:0.132
+44/360,train_loss:0.070
+45/360,train_loss:0.108
+46/360,train_loss:0.209
+47/360,train_loss:0.085
+48/360,train_loss:0.075
+49/360,train_loss:0.160
+50/360,train_loss:0.080
+51/360,train_loss:0.109
+52/360,train_loss:0.085
+53/360,train_loss:0.148
+54/360,train_loss:0.110
+55/360,train_loss:0.051
+56/360,train_loss:0.104
+57/360,train_loss:0.082
+58/360,train_loss:0.116
+59/360,train_loss:0.129
+60/360,train_loss:0.097
+61/360,train_loss:0.085
+62/360,train_loss:0.091
+63/360,train_loss:0.103
+64/360,train_loss:0.071
+65/360,train_loss:0.116
+66/360,train_loss:0.134
+67/360,train_loss:0.117
+68/360,train_loss:0.111
+69/360,train_loss:0.154
+70/360,train_loss:0.146
+71/360,train_loss:0.191
+72/360,train_loss:0.103
+73/360,train_loss:0.120
+74/360,train_loss:0.133
+75/360,train_loss:0.078
+76/360,train_loss:0.082
+77/360,train_loss:0.110
+78/360,train_loss:0.109
+79/360,train_loss:0.107
+80/360,train_loss:0.081
+81/360,train_loss:0.117
+82/360,train_loss:0.112
+83/360,train_loss:0.111
+84/360,train_loss:0.072
+85/360,train_loss:0.082
+86/360,train_loss:0.097
+87/360,train_loss:0.123
+88/360,train_loss:0.153
+89/360,train_loss:0.051
+90/360,train_loss:0.140
+91/360,train_loss:0.065
+92/360,train_loss:0.081
+93/360,train_loss:0.092
+94/360,train_loss:0.097
+95/360,train_loss:0.075
+96/360,train_loss:0.115
+97/360,train_loss:0.197
+98/360,train_loss:0.105
+99/360,train_loss:0.138
+100/360,train_loss:0.134
+101/360,train_loss:0.067
+102/360,train_loss:0.106
+103/360,train_loss:0.116
+104/360,train_loss:0.172
+105/360,train_loss:0.117
+106/360,train_loss:0.092
+107/360,train_loss:0.107
+108/360,train_loss:0.137
+109/360,train_loss:0.080
+110/360,train_loss:0.099
+111/360,train_loss:0.092
+112/360,train_loss:0.109
+113/360,train_loss:0.085
+114/360,train_loss:0.122
+115/360,train_loss:0.075
+116/360,train_loss:0.119
+117/360,train_loss:0.068
+118/360,train_loss:0.078
+119/360,train_loss:0.114
+120/360,train_loss:0.130
+121/360,train_loss:0.080
+122/360,train_loss:0.089
+123/360,train_loss:0.089
+124/360,train_loss:0.160
+125/360,train_loss:0.080
+126/360,train_loss:0.070
+127/360,train_loss:0.099
+128/360,train_loss:0.097
+129/360,train_loss:0.134
+130/360,train_loss:0.083
+131/360,train_loss:0.083
+132/360,train_loss:0.145
+133/360,train_loss:0.098
+134/360,train_loss:0.110
+135/360,train_loss:0.103
+136/360,train_loss:0.083
+137/360,train_loss:0.116
+138/360,train_loss:0.093
+139/360,train_loss:0.100
+140/360,train_loss:0.120
+141/360,train_loss:0.113
+142/360,train_loss:0.104
+143/360,train_loss:0.096
+144/360,train_loss:0.105
+145/360,train_loss:0.079
+146/360,train_loss:0.099
+147/360,train_loss:0.155
+148/360,train_loss:0.084
+149/360,train_loss:0.143
+150/360,train_loss:0.158
+151/360,train_loss:0.071
+152/360,train_loss:0.069
+153/360,train_loss:0.124
+154/360,train_loss:0.071
+155/360,train_loss:0.134
+156/360,train_loss:0.106
+157/360,train_loss:0.093
+158/360,train_loss:0.223
+159/360,train_loss:0.101
+160/360,train_loss:0.094
+161/360,train_loss:0.088
+162/360,train_loss:0.077
+163/360,train_loss:0.114
+164/360,train_loss:0.081
+165/360,train_loss:0.080
+166/360,train_loss:0.155
+167/360,train_loss:0.108
+168/360,train_loss:0.122
+169/360,train_loss:0.094
+170/360,train_loss:0.043
+171/360,train_loss:0.117
+172/360,train_loss:0.122
+173/360,train_loss:0.081
+174/360,train_loss:0.127
+175/360,train_loss:0.096
+176/360,train_loss:0.107
+177/360,train_loss:0.081
+178/360,train_loss:0.100
+179/360,train_loss:0.118
+180/360,train_loss:0.116
+181/360,train_loss:0.105
+182/360,train_loss:0.103
+183/360,train_loss:0.057
+184/360,train_loss:0.060
+185/360,train_loss:0.153
+186/360,train_loss:0.090
+187/360,train_loss:0.167
+188/360,train_loss:0.092
+189/360,train_loss:0.094
+190/360,train_loss:0.087
+191/360,train_loss:0.105
+192/360,train_loss:0.106
+193/360,train_loss:0.037
+194/360,train_loss:0.112
+195/360,train_loss:0.074
+196/360,train_loss:0.100
+197/360,train_loss:0.127
+198/360,train_loss:0.111
+199/360,train_loss:0.069
+200/360,train_loss:0.146
+201/360,train_loss:0.126
+202/360,train_loss:0.085
+203/360,train_loss:0.107
+204/360,train_loss:0.098
+205/360,train_loss:0.039
+206/360,train_loss:0.084
+207/360,train_loss:0.114
+208/360,train_loss:0.116
+209/360,train_loss:0.120
+210/360,train_loss:0.053
+211/360,train_loss:0.084
+212/360,train_loss:0.087
+213/360,train_loss:0.087
+214/360,train_loss:0.109
+215/360,train_loss:0.089
+216/360,train_loss:0.093
+217/360,train_loss:0.067
+218/360,train_loss:0.120
+219/360,train_loss:0.066
+220/360,train_loss:0.067
+221/360,train_loss:0.120
+222/360,train_loss:0.105
+223/360,train_loss:0.128
+224/360,train_loss:0.100
+225/360,train_loss:0.122
+226/360,train_loss:0.070
+227/360,train_loss:0.125
+228/360,train_loss:0.095
+229/360,train_loss:0.047
+230/360,train_loss:0.119
+231/360,train_loss:0.072
+232/360,train_loss:0.090
+233/360,train_loss:0.100
+234/360,train_loss:0.125
+235/360,train_loss:0.124
+236/360,train_loss:0.148
+237/360,train_loss:0.063
+238/360,train_loss:0.113
+239/360,train_loss:0.082
+240/360,train_loss:0.061
+241/360,train_loss:0.107
+242/360,train_loss:0.101
+243/360,train_loss:0.061
+244/360,train_loss:0.087
+245/360,train_loss:0.198
+246/360,train_loss:0.075
+247/360,train_loss:0.076
+248/360,train_loss:0.091
+249/360,train_loss:0.147
+250/360,train_loss:0.115
+251/360,train_loss:0.062
+252/360,train_loss:0.077
+253/360,train_loss:0.106
+254/360,train_loss:0.088
+255/360,train_loss:0.100
+256/360,train_loss:0.128
+257/360,train_loss:0.101
+258/360,train_loss:0.151
+259/360,train_loss:0.088
+260/360,train_loss:0.083
+261/360,train_loss:0.134
+262/360,train_loss:0.049
+263/360,train_loss:0.130
+264/360,train_loss:0.093
+265/360,train_loss:0.042
+266/360,train_loss:0.062
+267/360,train_loss:0.091
+268/360,train_loss:0.100
+269/360,train_loss:0.125
+270/360,train_loss:0.071
+271/360,train_loss:0.136
+272/360,train_loss:0.080
+273/360,train_loss:0.061
+274/360,train_loss:0.079
+275/360,train_loss:0.077
+276/360,train_loss:0.085
+277/360,train_loss:0.069
+278/360,train_loss:0.106
+279/360,train_loss:0.048
+280/360,train_loss:0.130
+281/360,train_loss:0.095
+282/360,train_loss:0.123
+283/360,train_loss:0.045
+284/360,train_loss:0.079
+285/360,train_loss:0.098
+286/360,train_loss:0.076
+287/360,train_loss:0.092
+288/360,train_loss:0.128
+289/360,train_loss:0.091
+290/360,train_loss:0.083
+291/360,train_loss:0.108
+292/360,train_loss:0.079
+293/360,train_loss:0.081
+294/360,train_loss:0.081
+295/360,train_loss:0.092
+296/360,train_loss:0.095
+297/360,train_loss:0.117
+298/360,train_loss:0.086
+299/360,train_loss:0.091
+300/360,train_loss:0.061
+301/360,train_loss:0.067
+302/360,train_loss:0.080
+303/360,train_loss:0.062
+304/360,train_loss:0.049
+305/360,train_loss:0.230
+306/360,train_loss:0.047
+307/360,train_loss:0.123
+308/360,train_loss:0.075
+309/360,train_loss:0.071
+310/360,train_loss:0.062
+311/360,train_loss:0.091
+312/360,train_loss:0.170
+313/360,train_loss:0.045
+314/360,train_loss:0.083
+315/360,train_loss:0.129
+316/360,train_loss:0.102
+317/360,train_loss:0.096
+318/360,train_loss:0.098
+319/360,train_loss:0.063
+320/360,train_loss:0.146
+321/360,train_loss:0.092
+322/360,train_loss:0.122
+323/360,train_loss:0.094
+324/360,train_loss:0.078
+325/360,train_loss:0.121
+326/360,train_loss:0.108
+327/360,train_loss:0.053
+328/360,train_loss:0.069
+329/360,train_loss:0.065
+330/360,train_loss:0.132
+331/360,train_loss:0.056
+332/360,train_loss:0.104
+333/360,train_loss:0.093
+334/360,train_loss:0.126
+335/360,train_loss:0.066
+336/360,train_loss:0.135
+337/360,train_loss:0.075
+338/360,train_loss:0.133
+339/360,train_loss:0.102
+340/360,train_loss:0.084
+341/360,train_loss:0.116
+342/360,train_loss:0.077
+343/360,train_loss:0.157
+344/360,train_loss:0.073
+345/360,train_loss:0.077
+346/360,train_loss:0.091
+347/360,train_loss:0.073
+348/360,train_loss:0.045
+349/360,train_loss:0.101
+350/360,train_loss:0.143
+351/360,train_loss:0.089
+352/360,train_loss:0.116
+353/360,train_loss:0.055
+354/360,train_loss:0.079
+355/360,train_loss:0.055
+356/360,train_loss:0.056
+357/360,train_loss:0.090
+358/360,train_loss:0.087
+359/360,train_loss:0.139
+360/360,train_loss:0.090
+epoch 4 loss:0.100
+Epoch 5/5
+----------
+1/360,train_loss:0.097
+2/360,train_loss:0.067
+3/360,train_loss:0.113
+4/360,train_loss:0.079
+5/360,train_loss:0.092
+6/360,train_loss:0.067
+7/360,train_loss:0.060
+8/360,train_loss:0.080
+9/360,train_loss:0.069
+10/360,train_loss:0.107
+11/360,train_loss:0.099
+12/360,train_loss:0.159
+13/360,train_loss:0.104
+14/360,train_loss:0.109
+15/360,train_loss:0.087
+16/360,train_loss:0.184
+17/360,train_loss:0.121
+18/360,train_loss:0.091
+19/360,train_loss:0.099
+20/360,train_loss:0.075
+21/360,train_loss:0.042
+22/360,train_loss:0.081
+23/360,train_loss:0.092
+24/360,train_loss:0.095
+25/360,train_loss:0.093
+26/360,train_loss:0.107
+27/360,train_loss:0.119
+28/360,train_loss:0.068
+29/360,train_loss:0.097
+30/360,train_loss:0.076
+31/360,train_loss:0.066
+32/360,train_loss:0.147
+33/360,train_loss:0.077
+34/360,train_loss:0.109
+35/360,train_loss:0.099
+36/360,train_loss:0.109
+37/360,train_loss:0.073
+38/360,train_loss:0.091
+39/360,train_loss:0.139
+40/360,train_loss:0.083
+41/360,train_loss:0.098
+42/360,train_loss:0.050
+43/360,train_loss:0.065
+44/360,train_loss:0.097
+45/360,train_loss:0.145
+46/360,train_loss:0.073
+47/360,train_loss:0.096
+48/360,train_loss:0.063
+49/360,train_loss:0.100
+50/360,train_loss:0.122
+51/360,train_loss:0.067
+52/360,train_loss:0.056
+53/360,train_loss:0.074
+54/360,train_loss:0.088
+55/360,train_loss:0.053
+56/360,train_loss:0.082
+57/360,train_loss:0.054
+58/360,train_loss:0.061
+59/360,train_loss:0.102
+60/360,train_loss:0.072
+61/360,train_loss:0.095
+62/360,train_loss:0.106
+63/360,train_loss:0.196
+64/360,train_loss:0.095
+65/360,train_loss:0.125
+66/360,train_loss:0.071
+67/360,train_loss:0.082
+68/360,train_loss:0.109
+69/360,train_loss:0.070
+70/360,train_loss:0.086
+71/360,train_loss:0.083
+72/360,train_loss:0.082
+73/360,train_loss:0.068
+74/360,train_loss:0.083
+75/360,train_loss:0.175
+76/360,train_loss:0.077
+77/360,train_loss:0.089
+78/360,train_loss:0.081
+79/360,train_loss:0.100
+80/360,train_loss:0.114
+81/360,train_loss:0.132
+82/360,train_loss:0.062
+83/360,train_loss:0.089
+84/360,train_loss:0.064
+85/360,train_loss:0.138
+86/360,train_loss:0.068
+87/360,train_loss:0.083
+88/360,train_loss:0.098
+89/360,train_loss:0.122
+90/360,train_loss:0.074
+91/360,train_loss:0.071
+92/360,train_loss:0.084
+93/360,train_loss:0.062
+94/360,train_loss:0.123
+95/360,train_loss:0.137
+96/360,train_loss:0.126
+97/360,train_loss:0.062
+98/360,train_loss:0.079
+99/360,train_loss:0.146
+100/360,train_loss:0.068
+101/360,train_loss:0.103
+102/360,train_loss:0.084
+103/360,train_loss:0.115
+104/360,train_loss:0.129
+105/360,train_loss:0.085
+106/360,train_loss:0.114
+107/360,train_loss:0.172
+108/360,train_loss:0.096
+109/360,train_loss:0.053
+110/360,train_loss:0.088
+111/360,train_loss:0.124
+112/360,train_loss:0.119
+113/360,train_loss:0.090
+114/360,train_loss:0.087
+115/360,train_loss:0.097
+116/360,train_loss:0.086
+117/360,train_loss:0.064
+118/360,train_loss:0.093
+119/360,train_loss:0.089
+120/360,train_loss:0.127
+121/360,train_loss:0.115
+122/360,train_loss:0.107
+123/360,train_loss:0.093
+124/360,train_loss:0.122
+125/360,train_loss:0.151
+126/360,train_loss:0.135
+127/360,train_loss:0.118
+128/360,train_loss:0.076
+129/360,train_loss:0.093
+130/360,train_loss:0.080
+131/360,train_loss:0.097
+132/360,train_loss:0.075
+133/360,train_loss:0.087
+134/360,train_loss:0.092
+135/360,train_loss:0.158
+136/360,train_loss:0.067
+137/360,train_loss:0.083
+138/360,train_loss:0.067
+139/360,train_loss:0.130
+140/360,train_loss:0.106
+141/360,train_loss:0.091
+142/360,train_loss:0.108
+143/360,train_loss:0.067
+144/360,train_loss:0.089
+145/360,train_loss:0.081
+146/360,train_loss:0.066
+147/360,train_loss:0.111
+148/360,train_loss:0.098
+149/360,train_loss:0.134
+150/360,train_loss:0.129
+151/360,train_loss:0.102
+152/360,train_loss:0.138
+153/360,train_loss:0.141
+154/360,train_loss:0.095
+155/360,train_loss:0.064
+156/360,train_loss:0.047
+157/360,train_loss:0.137
+158/360,train_loss:0.074
+159/360,train_loss:0.108
+160/360,train_loss:0.123
+161/360,train_loss:0.094
+162/360,train_loss:0.051
+163/360,train_loss:0.050
+164/360,train_loss:0.095
+165/360,train_loss:0.123
+166/360,train_loss:0.048
+167/360,train_loss:0.093
+168/360,train_loss:0.112
+169/360,train_loss:0.093
+170/360,train_loss:0.074
+171/360,train_loss:0.086
+172/360,train_loss:0.057
+173/360,train_loss:0.109
+174/360,train_loss:0.077
+175/360,train_loss:0.059
+176/360,train_loss:0.099
+177/360,train_loss:0.088
+178/360,train_loss:0.112
+179/360,train_loss:0.084
+180/360,train_loss:0.074
+181/360,train_loss:0.102
+182/360,train_loss:0.118
+183/360,train_loss:0.117
+184/360,train_loss:0.093
+185/360,train_loss:0.078
+186/360,train_loss:0.053
+187/360,train_loss:0.103
+188/360,train_loss:0.085
+189/360,train_loss:0.079
+190/360,train_loss:0.091
+191/360,train_loss:0.060
+192/360,train_loss:0.066
+193/360,train_loss:0.071
+194/360,train_loss:0.109
+195/360,train_loss:0.152
+196/360,train_loss:0.125
+197/360,train_loss:0.120
+198/360,train_loss:0.076
+199/360,train_loss:0.101
+200/360,train_loss:0.108
+201/360,train_loss:0.149
+202/360,train_loss:0.105
+203/360,train_loss:0.115
+204/360,train_loss:0.078
+205/360,train_loss:0.084
+206/360,train_loss:0.090
+207/360,train_loss:0.065
+208/360,train_loss:0.146
+209/360,train_loss:0.080
+210/360,train_loss:0.126
+211/360,train_loss:0.104
+212/360,train_loss:0.088
+213/360,train_loss:0.104
+214/360,train_loss:0.100
+215/360,train_loss:0.097
+216/360,train_loss:0.119
+217/360,train_loss:0.080
+218/360,train_loss:0.077
+219/360,train_loss:0.085
+220/360,train_loss:0.096
+221/360,train_loss:0.134
+222/360,train_loss:0.081
+223/360,train_loss:0.108
+224/360,train_loss:0.063
+225/360,train_loss:0.096
+226/360,train_loss:0.117
+227/360,train_loss:0.067
+228/360,train_loss:0.095
+229/360,train_loss:0.048
+230/360,train_loss:0.107
+231/360,train_loss:0.055
+232/360,train_loss:0.098
+233/360,train_loss:0.078
+234/360,train_loss:0.075
+235/360,train_loss:0.131
+236/360,train_loss:0.095
+237/360,train_loss:0.117
+238/360,train_loss:0.118
+239/360,train_loss:0.065
+240/360,train_loss:0.085
+241/360,train_loss:0.087
+242/360,train_loss:0.116
+243/360,train_loss:0.101
+244/360,train_loss:0.134
+245/360,train_loss:0.085
+246/360,train_loss:0.102
+247/360,train_loss:0.084
+248/360,train_loss:0.057
+249/360,train_loss:0.081
+250/360,train_loss:0.104
+251/360,train_loss:0.145
+252/360,train_loss:0.072
+253/360,train_loss:0.080
+254/360,train_loss:0.046
+255/360,train_loss:0.087
+256/360,train_loss:0.101
+257/360,train_loss:0.066
+258/360,train_loss:0.136
+259/360,train_loss:0.071
+260/360,train_loss:0.085
+261/360,train_loss:0.106
+262/360,train_loss:0.068
+263/360,train_loss:0.045
+264/360,train_loss:0.060
+265/360,train_loss:0.085
+266/360,train_loss:0.043
+267/360,train_loss:0.084
+268/360,train_loss:0.095
+269/360,train_loss:0.061
+270/360,train_loss:0.082
+271/360,train_loss:0.090
+272/360,train_loss:0.052
+273/360,train_loss:0.088
+274/360,train_loss:0.075
+275/360,train_loss:0.062
+276/360,train_loss:0.087
+277/360,train_loss:0.052
+278/360,train_loss:0.090
+279/360,train_loss:0.108
+280/360,train_loss:0.109
+281/360,train_loss:0.057
+282/360,train_loss:0.098
+283/360,train_loss:0.135
+284/360,train_loss:0.117
+285/360,train_loss:0.093
+286/360,train_loss:0.065
+287/360,train_loss:0.115
+288/360,train_loss:0.097
+289/360,train_loss:0.113
+290/360,train_loss:0.058
+291/360,train_loss:0.062
+292/360,train_loss:0.109
+293/360,train_loss:0.083
+294/360,train_loss:0.130
+295/360,train_loss:0.110
+296/360,train_loss:0.117
+297/360,train_loss:0.059
+298/360,train_loss:0.073
+299/360,train_loss:0.086
+300/360,train_loss:0.095
+301/360,train_loss:0.058
+302/360,train_loss:0.104
+303/360,train_loss:0.142
+304/360,train_loss:0.109
+305/360,train_loss:0.107
+306/360,train_loss:0.098
+307/360,train_loss:0.083
+308/360,train_loss:0.109
+309/360,train_loss:0.080
+310/360,train_loss:0.090
+311/360,train_loss:0.106
+312/360,train_loss:0.086
+313/360,train_loss:0.081
+314/360,train_loss:0.101
+315/360,train_loss:0.082
+316/360,train_loss:0.107
+317/360,train_loss:0.112
+318/360,train_loss:0.077
+319/360,train_loss:0.110
+320/360,train_loss:0.072
+321/360,train_loss:0.079
+322/360,train_loss:0.137
+323/360,train_loss:0.077
+324/360,train_loss:0.106
+325/360,train_loss:0.085
+326/360,train_loss:0.161
+327/360,train_loss:0.089
+328/360,train_loss:0.079
+329/360,train_loss:0.092
+330/360,train_loss:0.105
+331/360,train_loss:0.077
+332/360,train_loss:0.079
+333/360,train_loss:0.095
+334/360,train_loss:0.150
+335/360,train_loss:0.093
+336/360,train_loss:0.057
+337/360,train_loss:0.058
+338/360,train_loss:0.141
+339/360,train_loss:0.090
+340/360,train_loss:0.066
+341/360,train_loss:0.106
+342/360,train_loss:0.077
+343/360,train_loss:0.075
+344/360,train_loss:0.110
+345/360,train_loss:0.078
+346/360,train_loss:0.085
+347/360,train_loss:0.064
+348/360,train_loss:0.070
+349/360,train_loss:0.037
+350/360,train_loss:0.076
+351/360,train_loss:0.067
+352/360,train_loss:0.074
+353/360,train_loss:0.084
+354/360,train_loss:0.115
+355/360,train_loss:0.076
+356/360,train_loss:0.137
+357/360,train_loss:0.156
+358/360,train_loss:0.086
+359/360,train_loss:0.071
+360/360,train_loss:0.111
+epoch 5 loss:0.093
+
+
+%run train_test_evaluate test
+
+index:1 dice score:0.820403825717322
+index:2 dice score:0.738973897389739
+index:3 dice score:0.7310826542491269
+index:4 dice score:0.795852430686002
+index:5 dice score:0.8096716947648624
+index:6 dice score:0.7986829727187206
+index:7 dice score:0.8293856402664693
+index:8 dice score:0.8324828435685377
+index:9 dice score:0.8512766517504606
+index:10 dice score:0.8600508905852418
+index:11 dice score:0.8019665683382498
+index:12 dice score:0.6867182846932698
+index:13 dice score:0.7369542066027689
+index:14 dice score:0.8323271665043817
+index:15 dice score:0.8830804947364208
+index:16 dice score:0.8848778165661695
+index:17 dice score:0.7917096501922536
+index:18 dice score:0.5888149790588815
+index:19 dice score:0.6724678036895232
+index:20 dice score:0.7387145494210438
+index:21 dice score:0.8501159592255002
+index:22 dice score:0.8670608946869498
+index:23 dice score:0.8210278682591386
+index:24 dice score:0.7168597168597168
+index:25 dice score:0.764270925761609
+index:26 dice score:0.7994513867723255
+index:27 dice score:0.8355581634149919
+index:28 dice score:0.8660820367751061
+index:29 dice score:0.8501790998286871
+index:30 dice score:0.7699353448275862
+index:31 dice score:0.7508667657256067
+index:32 dice score:0.8163526030022357
+index:33 dice score:0.8074742028446593
+index:34 dice score:0.8293415819708352
+index:35 dice score:0.8673496191226687
+index:36 dice score:0.8655406304029791
+index:37 dice score:0.857516339869281
+index:38 dice score:0.7367969085444397
+index:39 dice score:0.8345186285956905
+index:40 dice score:0.8327148807269974
+index:41 dice score:0.8087767648929405
+index:42 dice score:0.7999263758512792
+index:43 dice score:0.7442063839090511
+index:44 dice score:0.7573943661971831
+index:45 dice score:0.8289445965873183
+index:46 dice score:0.8928246013667426
+index:47 dice score:0.8692388530250713
+index:48 dice score:0.8052234688247195
+index:49 dice score:0.650534255185418
+index:50 dice score:0.7001258653241033
+index:51 dice score:0.7498889382496668
+index:52 dice score:0.8448919052541687
+index:53 dice score:0.8542641237855344
+index:54 dice score:0.8038342108815985
+index:55 dice score:0.44061302681992337
+index:56 dice score:0.6001890359168242
+index:57 dice score:0.7697344488905057
+index:58 dice score:0.8437310438150343
+index:59 dice score:0.8470169541792298
+index:60 dice score:0.8281844468117486
+index:61 dice score:0.03496503496503497
+index:62 dice score:0.6191129401005944
+index:63 dice score:0.8083661848445028
+index:64 dice score:0.846827687477847
+index:65 dice score:0.8506835469971807
+index:66 dice score:0.8306118787008793
+index:67 dice score:0.18466898954703834
+index:68 dice score:0.644569097399286
+index:69 dice score:0.8039050664871233
+index:70 dice score:0.8123002173635085
+index:71 dice score:0.802805049088359
+index:72 dice score:0.8211992897145198
+index:73 dice score:0.6484322881921281
+index:74 dice score:0.6710427606901725
+index:75 dice score:0.6961852861035422
+index:76 dice score:0.7451025317905832
+index:77 dice score:0.7972517671929709
+index:78 dice score:0.7700138824618232
+index:79 dice score:0.5066991473812423
+index:80 dice score:0.6958301907122078
+index:81 dice score:0.7829374420429417
+index:82 dice score:0.799851506151888
+index:83 dice score:0.7959317917320244
+index:84 dice score:0.7451623483109217
+index:85 dice score:0.3309066843150232
+index:86 dice score:0.6465728274173806
+index:87 dice score:0.7683670715249663
+index:88 dice score:0.7787923195430805
+index:89 dice score:0.7048042584731488
+index:90 dice score:0.5389920424403183
+index:91 dice score:0.6575901974132062
+index:92 dice score:0.6744993324432577
+index:93 dice score:0.8034070377699389
+index:94 dice score:0.8199800585378405
+index:95 dice score:0.7188089200962227
+index:96 dice score:0.47264856355765444
+index:97 dice score:0.7351937984496124
+index:98 dice score:0.7396655994308076
+index:99 dice score:0.8183835452760946
+index:100 dice score:0.8671862573564498
+index:101 dice score:0.8339425293819941
+index:102 dice score:0.7074592074592074
+index:103 dice score:0.6324015629696423
+index:104 dice score:0.6973963355834137
+index:105 dice score:0.7915567282321899
+index:106 dice score:0.8546117769671704
+index:107 dice score:0.8541866028708134
+index:108 dice score:0.8334194659776055
+index:109 dice score:0.7865590388586446
+index:110 dice score:0.8132663316582914
+index:111 dice score:0.7872543407746613
+index:112 dice score:0.8058139534883721
+index:113 dice score:0.8303718471006327
+index:114 dice score:0.7230443974630021
+index:115 dice score:0.769642474844787
+index:116 dice score:0.7960569814269399
+index:117 dice score:0.8485591661557327
+index:118 dice score:0.8741624908507404
+index:119 dice score:0.8509195977107296
+index:120 dice score:0.7595523742312733
+index:121 dice score:0.6786258250126925
+index:122 dice score:0.703923900118906
+index:123 dice score:0.7921849331142924
+index:124 dice score:0.8484759131620655
+index:125 dice score:0.7886280501921563
+index:126 dice score:0.6535044422507403
+index:127 dice score:0.47204354280059374
+index:128 dice score:0.564278368186493
+index:129 dice score:0.6783879603501918
+index:132 dice score:0.7038129575002732
+index:133 dice score:0.22388059701492538
+index:134 dice score:0.4948791478902089
+index:135 dice score:0.7338282078472959
+index:136 dice score:0.8320242414576772
+index:137 dice score:0.8545714870116589
+index:138 dice score:0.8138758160012145
+index:139 dice score:0.45690973992860784
+index:140 dice score:0.7020082693443591
+index:141 dice score:0.8437396762471093
+index:142 dice score:0.8442500533390228
+index:143 dice score:0.8173308371222252
+index:144 dice score:0.8080612134928333
+index:145 dice score:0.7481636935991606
+index:146 dice score:0.808818214672931
+index:147 dice score:0.8072536922789306
+index:148 dice score:0.818716675859533
+index:149 dice score:0.8568847852268165
+index:150 dice score:0.8326672458731538
+index:151 dice score:0.7365843705366252
+index:152 dice score:0.8140238476597259
+index:153 dice score:0.7977740445191096
+index:154 dice score:0.7745710602003372
+index:155 dice score:0.7721426483484362
+index:156 dice score:0.6794121843344272
+index:157 dice score:0.6238030095759234
+index:158 dice score:0.755711318795431
+index:159 dice score:0.7728839525086174
+index:160 dice score:0.7973688189928928
+index:161 dice score:0.762745885186672
+index:162 dice score:0.3566753926701571
+index:163 dice score:0.7749174917491749
+index:164 dice score:0.8147288457480482
+index:165 dice score:0.8149509803921569
+index:166 dice score:0.7963553189095954
+index:167 dice score:0.7867708486903533
+index:168 dice score:0.6835354067826392
+index:169 dice score:0.8415072902859307
+index:170 dice score:0.8127439411818099
+index:171 dice score:0.8106308724832215
+index:172 dice score:0.7714617811479493
+index:173 dice score:0.7614512775803098
+index:174 dice score:0.7556479305982288
+index:175 dice score:0.7426924660354055
+index:176 dice score:0.7184721764899572
+index:177 dice score:0.7805777504609711
+index:178 dice score:0.8004889056036104
+index:179 dice score:0.7470164244357793
+index:181 dice score:0.38952687184198437
+index:182 dice score:0.6987834549878346
+index:183 dice score:0.7424071991001124
+index:184 dice score:0.5731610862114421
+index:185 dice score:0.7544338335607094
+index:186 dice score:0.7662366061666303
+index:187 dice score:0.426078971533517
+index:188 dice score:0.700477960701009
+index:189 dice score:0.7579102281089036
+index:190 dice score:0.7321834244846445
+index:191 dice score:0.75991454132728
+index:192 dice score:0.7363246785984371
+index:193 dice score:0.40179372197309415
+index:194 dice score:0.562375249500998
+index:195 dice score:0.6811567842851947
+index:196 dice score:0.8019435223938038
+index:197 dice score:0.8187565858798735
+index:198 dice score:0.7260586891583202
+index:199 dice score:0.19517102615694165
+index:200 dice score:0.5692682926829268
+index:201 dice score:0.605122268846766
+index:202 dice score:0.7855785717595811
+index:203 dice score:0.8333192460485166
+index:204 dice score:0.8164920581277458
+index:205 dice score:0.37488457987072943
+index:206 dice score:0.6134651600753296
+index:207 dice score:0.7316671809112414
+index:208 dice score:0.7338392194899298
+index:209 dice score:0.7725459782849545
+index:210 dice score:0.834318006678654
+index:211 dice score:0.47074010327022375
+index:212 dice score:0.5578541874732487
+index:213 dice score:0.7769775882929078
+index:214 dice score:0.7805317710680487
+index:215 dice score:0.6193161790623899
+index:216 dice score:0.764757095594637
+index:217 dice score:0.7914110429447853
+index:218 dice score:0.8067688747468904
+index:219 dice score:0.7494722026741731
+index:220 dice score:0.8285295554469956
+index:221 dice score:0.8584918571233064
+index:222 dice score:0.8014796547472256
+index:223 dice score:0.7951985226223454
+index:224 dice score:0.8563673026213743
+index:225 dice score:0.8167330677290837
+index:226 dice score:0.8353840316548322
+index:227 dice score:0.8471289210818389
+index:228 dice score:0.7490738453939244
+index:229 dice score:0.7054820415879017
+index:230 dice score:0.8163002483672155
+index:231 dice score:0.8214635968803997
+index:232 dice score:0.8062891161654709
+index:233 dice score:0.7538755250095456
+index:234 dice score:0.3861955628594905
+index:235 dice score:0.6887062870246512
+index:236 dice score:0.7497351694915254
+index:237 dice score:0.8390919048093199
+index:238 dice score:0.8259390503189228
+index:239 dice score:0.7553025763930498
+index:240 dice score:0.48535564853556484
+index:241 dice score:0.7834471675371635
+index:242 dice score:0.778254972875226
+index:243 dice score:0.8644941976321651
+index:244 dice score:0.8458145152820082
+index:245 dice score:0.7807911556400069
+index:246 dice score:0.7519731787385625
+index:247 dice score:0.6151603498542274
+index:248 dice score:0.7819262782401902
+index:249 dice score:0.8726344050815271
+index:250 dice score:0.8815432968462122
+index:251 dice score:0.8078029260972864
+index:252 dice score:0.8043714023525486
+index:253 dice score:0.6852331606217616
+index:254 dice score:0.6935603256846781
+index:255 dice score:0.5803305337306963
+index:256 dice score:0.7288958907706446
+index:257 dice score:0.7018301982714794
+index:258 dice score:0.535855697316322
+index:259 dice score:0.5285624607658506
+index:260 dice score:0.7077474496829336
+index:261 dice score:0.7728146382716998
+index:262 dice score:0.7987992732443321
+index:263 dice score:0.7599787120808941
+index:264 dice score:0.6447882481637756
+index:265 dice score:0.26609442060085836
+index:266 dice score:0.659902516661693
+index:267 dice score:0.7857185503612156
+index:268 dice score:0.8371262829094155
+index:269 dice score:0.8255831452219714
+index:270 dice score:0.7930706665258266
+index:271 dice score:0.12307692307692308
+index:272 dice score:0.5438813349814586
+index:273 dice score:0.7199939228198116
+index:274 dice score:0.8061976123952248
+index:275 dice score:0.8256840823073911
+index:276 dice score:0.7995637949836423
+index:277 dice score:0.26421404682274247
+index:278 dice score:0.6479338842975206
+index:279 dice score:0.7158030254264564
+index:280 dice score:0.7872676947410043
+index:281 dice score:0.8048538591680765
+index:282 dice score:0.7389476366416105
+index:283 dice score:0.5844155844155844
+index:284 dice score:0.5103821847727956
+index:285 dice score:0.6971131532535041
+index:286 dice score:0.8394667321988082
+index:287 dice score:0.8766066838046273
+index:288 dice score:0.7398648648648649
+Average Dice Score: 73.4771%
