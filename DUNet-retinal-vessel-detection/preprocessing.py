@@ -67,7 +67,7 @@ def combine_process(imgs):
     gray_imgs = rgb2gray(imgs)
     normalized_imgs = dataset_normalized(gray_imgs)
     clahe_imgs = clahe_equalized(normalized_imgs)
-    gamma_imgs = adjust_gamma(clahe_imgs)
+    gamma_imgs = adjust_gamma(clahe_imgs, 1.2)
     finally_imgs = gamma_imgs/255.  # reduce to 0-1 range
     return gray_imgs, normalized_imgs, clahe_imgs, gamma_imgs, finally_imgs
 

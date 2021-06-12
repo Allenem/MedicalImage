@@ -188,11 +188,16 @@ DRIVE avarage Dice:77.45%, avarage Accuracy:95.83%
 
 ## 五、参考文献
 
-- [1] Jin Q ,  Meng Z ,  Pham T D , et al. DUNet: A deformable network for retinal vessel segmentation[J]. Knowledge-Based Systems, 2019, 178(AUG.15):149-162. https://github.com/RanSuLab/DUNet-retinal-vessel-detection
-- [2] 梁礼明, 盛校棋, 郭凯,等. 基于改进的U-Net眼底视网膜血管分割[J]. 计算机应用研究, 2020, v.37;No.342(04):293-297.
-- [3] Ronneberger O ,  Fischer P ,  Brox T . U-Net: Convolutional Networks for Biomedical Image Segmentation[M]. Springer, Cham, 2015.
-- [4] Zhou Z ,  Siddiquee M ,  Tajbakhsh N , et al. UNet++: A Nested U-Net Architecture for Medical Image Segmentation[C]// 4th Deep Learning in Medical Image Analysis (DLMIA) Workshop. 2018.
-- [5] Zuiderveld K . Contrast Limited Adaptive Histogram Equalization[J]. Graphics Gems, 1994:474-485.
-- [6] https://github.com/wfdubowen/Retina-Unet
-- [7] https://github.com/JavisPeng/u_net_liver
-- [8] https://github.com/ainieli/UCAS_retina_seg
+- [1]	Pizer S M, Amburn E P, Austin J D, et al. Adaptive histogram equalization and its variations[J]. Computer vision, graphics, and image processing, 1987, 39(3): 355-368.
+- [2]	Zuiderveld K . Contrast Limited Adaptive Histogram Equalization[J]. Graphics Gems, 1994:474-485.
+- [3]	Srinivasan S, Balram N. Adaptive contrast enhancement using local region stretching[C]//Proceedings of the 9th Asian symposium on information display. 2006: 152-155.
+- [4]	马青柯. 眼底图像检测和分析系统的设计与开发[D]. 暨南大学.
+- [5]	梁礼明, 盛校棋, 郭凯,等. 基于改进的U-Net眼底视网膜血管分割[J]. 计算机应用研究, 2020, v.37;No.342(04):293-297.
+- [6]	Jin Q ,  Meng Z ,  Pham T D , et al. DUNet: A deformable network for retinal vessel segmentation[J]. Knowledge-Based Systems, 2019, 178(AUG.15):149-162. https://github.com/RanSuLab/DUNet-retinal-vessel-detection
+- [7]	J.V. Soares, J.J. Leandro, R.M. Cesar, H.F. Jelinek, M.J. Cree, Retinal vessel segmentation using the 2-D Gabor wavelet and supervised classification, IEEE Trans. Med. Imaging 25 (9) (2006) 1214–1222.
+- [8]	Ronneberger O ,  Fischer P ,  Brox T . U-Net: Convolutional Networks for Biomedical Image Segmentation[M]. Springer, Cham, 2015.
+- [9]	Zhou Z ,  Siddiquee M ,  Tajbakhsh N , et al. UNet++: A Nested U-Net Architecture for Medical Image Segmentation[C]// 4th Deep Learning in Medical Image Analysis (DLMIA) Workshop. 2018.
+- [10]	Yu F , Wang D , Shelhamer E , et al. Deep Layer Aggregation[C]// 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2018.
+- [11] https://github.com/wfdubowen/Retina-Unet
+- [12] https://github.com/JavisPeng/u_net_liver
+- [13] https://github.com/ainieli/UCAS_retina_seg
