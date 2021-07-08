@@ -1,3 +1,5 @@
 DUNet-retinal-vessel-detection/data_process/
 DUNet-retinal-vessel-detection/data_crop/
 DUNet-retinal-vessel-detection/result/
+DUNet-retinal-vessel-detection/weights_DRIVE_5.pth
+DUNet-retinal-vessel-detection/weights_CHASE_5.pth

@@ -114,7 +114,9 @@ python finally_evaluate.py
 - 2.图像分割成小块patch
 - 3.torch写网络
   - Unet
+  ![Unet.png](./show_img/Unet.png)
   - Unet++
+  ![Unet++.png](./show_img/Unet++.png)
 - 4.训练与测试，计算每个小patch的train_loss和dice_score
 - 5.合并图像
 - 6.计算整体测度
