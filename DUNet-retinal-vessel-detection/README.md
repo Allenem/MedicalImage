@@ -97,7 +97,7 @@ python train_test_evaluate.py test
 python train_test_evaluate.py train --batch_size=8 --ckpt='weights_DRIVE_5.pth' --datasetname='DRIVE' 
 python train_test_evaluate.py test --ckpt='weights_DRIVE_5.pth' --datasetname='DRIVE' 
 
-python merge_imgs.py         # 注意每次修改4处，每次合并一个数据集的预测图or标签
+python merge_imgs.py         # 注意每次修改5处，每次合并一个数据集的预测图or标签
 python merge_imgs.py
 python merge_imgs.py
 python merge_imgs.py
