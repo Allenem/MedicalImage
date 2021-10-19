@@ -34,7 +34,7 @@ def merge(path_in, path_out, row, col, idx, side_length, stride, size):
                 print(img_ij)
             print([i*stride, i*stride+side_length,
                    j*stride, j*stride+side_length])
-            # No3toChange.*1
+            # No3toChange. CHASE_prediction*1 or DRIVE_prediction*1
             # merged_img_arr[int(i*stride):int(i*stride+side_length),
             #                int(j*stride):int(j*stride+side_length)] = img_ij
             # No3toChange. CHASE_label*255 or DRIVE_label*1
@@ -47,15 +47,18 @@ def merge(path_in, path_out, row, col, idx, side_length, stride, size):
 
 
 if __name__ == '__main__':
-
+    
+    # No4toChange. CHASE 0
+    # dataset = 0
+    # No4toChange. DRIVE 1
     dataset = 1
     side_length = 256
     stride = 128
     path_in = source_path[dataset]
     path_out = merge_path[dataset]
-    # No4toChange.predict
+    # No5toChange.predict
     # files_num = len(os.listdir(source_path[dataset]))
-    # No4toChange.label
+    # No5toChange.label
     files_num = len(os.listdir(source_path[dataset]))//2
     if dataset == 0:
         row, col = 6, 6
